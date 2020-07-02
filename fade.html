@@ -1,0 +1,24 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeIn();});
+	
+	$("button").click(function(){
+    $("#div2").fadeOut(300);});
+	
+});
+</script>
+</head>
+<body><p>in and out</p>
+
+
+<button > fadein </button><br><br>
+
+<div id="div1" style="width:80px;height:80px;display:none; background-color:red;"></div><br>
+<button >fadeout</button><br><br>
+<div id="div2"style="width:80px;height:80px;background-color:black;"></div><br>
+</body>
+</html>
